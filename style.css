@@ -1,0 +1,31 @@
+body {
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+div {
+    margin: 10px;
+}
+section {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+footer {
+    text-align: center;
+    color: white;
+}
+img {
+    border-radius: 50%;
+}
+@media screen and (max-width: 700px) {
+    section {
+        width: 450px;
+    }
+}
